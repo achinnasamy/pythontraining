@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<fraud_analytics>
+    <money_laundering name="LLC Firm">
+        <credit_threshold currency="EUR">5000</credit_threshold>
+        <year>2016</year>
+    </money_laundering>
+    <money_laundering name="LLA Firm">
+        <credit_threshold currency="EUR">6000</credit_threshold>
+        <year>2015</year>
+    </money_laundering>
+</fraud_analytics>

@@ -1,0 +1,13 @@
+fileobj=open("firstfile.txt","w")
+fileobj.write("Python")
+fileobj.write("programming")
+fileobj.close()
+fileobj=open("firstfile.txt","r")
+print fileobj.readlines()
+fileobj.close()
+fileobj=open("firstfile.txt","a")
+text=["this is/","my first trial"]
+fileobj.writelines(text)
+fileobj.close()
+fileobj=open("firstfile.txt","r")
+print fileobj.readline()

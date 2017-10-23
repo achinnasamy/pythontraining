@@ -1,0 +1,10 @@
+<metadata name="metrolinux">
+   <operational_metadata title="operational">
+      <op_type>3</op_type>
+      <op_name>RAMS</op_name>
+      <source_system>CSV</source_system>
+      <source_path>/var/local/sys/rams.csv</source_path>
+      <target_system>HDFS</target_system>
+      <target_path>hdfs://localhost:9000/rams/ingest</target_path>
+   </operational_metadata>
+</metadata>
