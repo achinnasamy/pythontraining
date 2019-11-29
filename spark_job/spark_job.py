@@ -14,7 +14,7 @@ def print_each_line(eachLine):
 
 sparkcontext = SparkContext(conf= sparkconfig)
 
-textFileRDD = sparkcontext.textFile("/home/dharshekthvel/Downloads/query_result.csv")
+textFileRDD = sparkcontext.textFile("/home/dharshekthvel/ac/ddata/loading.csv")
 
 textFileRDD.foreach(print_each_line)
 
